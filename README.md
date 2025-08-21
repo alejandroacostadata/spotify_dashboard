@@ -29,6 +29,8 @@ Este proyecto presenta una solución de análisis de datos avanzada para el proc
 - Sistema de caché optimizado para rendimiento mejorado
 - Generación de datos de muestra para demostración
 - Compatibilidad con múltiples formatos de datos de Spotify
+![Spotify Analytics Dashboard](https://raw.githubusercontent.com/alejandroacostadata/spotify_dashboard/main/spotify-dashboard-main.png)
+
 
 ## Arquitectura del Sistema
 
@@ -68,10 +70,13 @@ streamlit run spotify_dashboard.py
 ### Navegación
 La interfaz se organiza en secciones temáticas:
 - **Métricas Generales**: KPIs principales de consumo
+![Spotify Analytics Dashboard](https://raw.githubusercontent.com/alejandroacostadata/spotify_dashboard/main/spotify-dashboard-main_2.png)
 - **Análisis de Patrones**: Comportamiento temporal y estacional
+![Spotify Analytics Dashboard](https://raw.githubusercontent.com/alejandroacostadata/spotify_dashboard/main/spotify-temporal-analysis.png)
 - **DNA Musical**: Artistas y canciones más reproducidas
+![Spotify Analytics Dashboard](https://raw.githubusercontent.com/alejandroacostadata/spotify_dashboard/main/spotify-artist-dna.png)
 - **Análisis de Plataformas**: Distribución por dispositivos
-- **Insights Personalizados**: Recomendaciones basadas en datos
+![Spotify Analytics Dashboard](https://raw.githubusercontent.com/alejandroacostadata/spotify_dashboard/main/spotify-mood-patterns.png)
 
 ## Métricas y KPIs
 
@@ -79,15 +84,17 @@ La interfaz se organiza en secciones temáticas:
 - Total de canciones reproducidas
 - Horas totales de escucha
 - Número de artistas únicos explorados
+![Spotify Analytics Dashboard](https://raw.githubusercontent.com/alejandroacostadata/spotify_dashboard/main/spotify-listening-clock.png)
 - Cantidad de canciones únicas
 - Tasa de omisión promedio
-
+![Spotify Analytics Dashboard](https://raw.githubusercontent.com/alejandroacostadata/spotify_dashboard/main/spotify-skip-analysis.png)
 ### Análisis Avanzados
 - Índice de lealtad por artista
 - Patrones de estado de ánimo por horarios
+![Spotify Analytics Dashboard](https://raw.githubusercontent.com/alejandroacostadata/spotify_dashboard/main/spotify-moments-day.png)
 - Análisis de completitud de reproducción
 - Métricas de descubrimiento musical
-
+![Spotify Analytics Dashboard](https://raw.githubusercontent.com/alejandroacostadata/spotify_dashboard/main/spotify-loyalty-index.png)
 ## Consideraciones de Privacidad
 
 - Todos los datos se procesan localmente
@@ -101,9 +108,6 @@ La interfaz se organiza en secciones temáticas:
 - Autoconocimiento de hábitos musicales
 - Identificación de patrones de comportamiento
 - Seguimiento de evolución de gustos musicales
-
-### Investigación Académica
-- Estudios de comportamiento de consumo digital
 - Análisis de patrones temporales en entretenimiento
 - Investigación en psicología del consumo musical
 
